@@ -1,0 +1,55 @@
+.body, div, p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.restlet-bg-dark {
+    background-color: #1A2A2D;
+    color: white;
+}
+
+.restlet-bg-dark h1 {
+    color: white;
+}
+
+.restlet-bg-grey {
+    background-color: #334251;
+    color: white;
+}
+
+.restlet-bg-blue {
+    background-color: #428AB8;
+    color: white;
+}
+
+.restlet-bg-orange {
+    background-color: #E0692C;
+    color: black;
+}
+
+.restlet-bg-yellow {
+    background-color: #E6992F;
+    color: black;
+}
+
+.restlet-bg-green {
+    background-color: #68A35C;
+    color: black;
+}
+
+.pi-form {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.pi-band {
+    padding: 30px;
+}
