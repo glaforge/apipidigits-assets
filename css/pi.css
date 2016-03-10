@@ -6,11 +6,33 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+blockquote {
+    font-style: italic;
+}
+
 .slab {
     font-family: 'Roboto Slab', serif;
 }
 
-.restlet-bg-dark {
+.center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.pi-band {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.pi-bigger {
+    font-size: 150%;
+}
+
+.restlet-bg-dark, body {
     background-color: #1A2A2D;
     color: white;
 }
@@ -44,12 +66,26 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-.pi-form {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+.restlet-dark {
+    color: #1A2A2D;
 }
 
-.pi-band {
-    padding: 30px;
+.restlet-grey {
+    color: #334251;
+}
+
+.restlet-blue {
+    color: #428AB8;
+}
+
+.restlet-orange {
+    color: #E0692C;
+}
+
+.restlet-yellow {
+    color: #E6992F;
+}
+
+.restlet-green {
+    color: #68A35C;
 }
