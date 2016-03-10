@@ -10,6 +10,10 @@ blockquote {
     font-style: italic;
 }
 
+a {
+    color: #DC863C;
+}
+
 .slab {
     font-family: 'Roboto Slab', serif;
 }
@@ -33,7 +37,7 @@ blockquote {
 }
 
 .restlet-bg-dark, body {
-    background-color: #1A2A2D;
+    background-color: #2D4047;
     color: white;
 }
 
@@ -42,50 +46,50 @@ blockquote {
 }
 
 .restlet-bg-grey {
-    background-color: #334251;
+    background-color: #4E5C73;
     color: white;
 }
 
 .restlet-bg-blue {
-    background-color: #428AB8;
+    background-color: #71A3D6;
     color: white;
 }
 
 .restlet-bg-orange {
-    background-color: #E0692C;
+    background-color: #DC863C;
     color: black;
 }
 
 .restlet-bg-yellow {
-    background-color: #E6992F;
+    background-color: #E9B335;
     color: black;
 }
 
 .restlet-bg-green {
-    background-color: #68A35C;
+    background-color: #93BA78;
     color: black;
 }
 
 .restlet-dark {
-    color: #1A2A2D;
+    color: #2D4047;
 }
 
 .restlet-grey {
-    color: #334251;
+    color: #4E5C73;
 }
 
 .restlet-blue {
-    color: #428AB8;
+    color: #71A3D6;
 }
 
 .restlet-orange {
-    color: #E0692C;
+    color: #DC863C;
 }
 
 .restlet-yellow {
-    color: #E6992F;
+    color: #E9B335;
 }
 
 .restlet-green {
-    color: #68A35C;
+    color: #93BA78;
 }
