@@ -40,8 +40,9 @@ a {
     font-size: 1000%;
 }
 
-.digits-batch {
-    border-top: 1px dotted white;
+.bordered {
+    border: 2px solid white;
+    padding: 10px;
 }
 
 .pi-band {
