@@ -249,6 +249,7 @@
     </div>
     <div class="row">
         <div class="large-12 columns" id="all-digits">
+            <!--
             <p class="huge-digit">1415926535</p>
             <p class="huge-digit">8979323846</p>
             <p class="huge-digit">2643383279</p>
@@ -270,6 +271,7 @@
             <p class="huge-digit">6446229489</p>
             <p class="huge-digit">5493038196</p>
             <p class="huge-digit">4428810975</p>
+            -->
         </div>
     </div>
 </div>
@@ -278,7 +280,23 @@
 <script src="../js/vendor/jquery.js"></script>
 <script src="../js/foundation.min.js"></script>
 <script>
+    var pages = 0;
     $(document).foundation();
+    $(window).scroll(function(){
+        if  ($(window).scrollTop() == $(document).height() - $(window).height()) {
+            $.ajax({
+                url: "https://apidigits.apispark.net/v1/digits/" + pages,
+                success: function(data) {
+//                    $("#all-digits").append(data.content);
+                    pages++;
+                    var digitsContent = data.content;
+                    for (var i = 0; i < 100; i++) {
+                        $("#all-digits").append('<span class="huge-digit">' + digitsContent.substr(i * 10, 10) + '</span><br>');
+                    }
+                }
+            });
+        }
+    });
 </script>
 </body>
 </html>
