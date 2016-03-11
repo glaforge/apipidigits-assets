@@ -127,22 +127,16 @@
         </div>
     </div>
 </div>
-<div class="pi-band">
+<div class="pi-band restlet-bg-orange">
     <div class="row">
-        <div class="large-12 columns">
-            <p>
-                If you want to <strong>win a Raspberry Pi 3</strong>,
-                you'll have to <strong>use the API</strong> to hunt through the digits of Pi.
-            </p>
-            <p>
-                <strong>
-                    The goal is to find at which pages (a page contains a thousand digits of Pi, starting from 0)
-                    appears the sequence 66666666 (8 times the digit 6).
-                </strong>
-            </p>
-            <p>
-
-            </p>
+        <div class="large-6 columns">
+            If you want to <strong>win a Raspberry Pi 3</strong>,
+            you'll have to <strong>use the API</strong> to hunt through the digits of Pi.
+        </div>
+        <div class="large-6 columns white" style="border: 2px dotted white">
+            The goal is to find at which pages (a page contains a thousand digits of Pi, starting from 0),
+            among the first billion digits of π,
+            appears the sequence 66666666 (8 times the digit 6).
         </div>
     </div>
 </div>
@@ -157,10 +151,50 @@
 <div class="pi-band">
     <div class="row">
         <div class="large-6 columns">
-
+            <h3>Calling the API</h3>
+            <p>
+                The π API is pretty straightforward to call.
+                You just have to issue a GET request on: <br>
+                <code>https://apidigits.apispark.net/v1/digits/{page}</code><br>
+                where <code>{page}</code> is the number of the page of a thousand digits you want to look at.
+            </p>
+            <p>
+                So if you call this URL: <br>
+                <code>https://apidigits.apispark.net/v1/digits/0</code><br>
+                it will return the first thousand digits after 3. And when calling<br>
+                <code>https://apidigits.apispark.net/v1/digits/1</code><br>
+                you will get from the 1000th to 1999th digits after the dot.
+            </p>
+            <p>
+                You can use <a href="https://restlet.com/products/dhc/">DHC by Restlet</a>
+                to invoke the API, to go through the digits.
+            </p>
+            <p>
+                <a href="https://restlet.com/products/dhc/">
+                    <img src="https://restlet.com/static/app/img/nav-dhc.jpg" alt="DHC by Restlet">
+                </a>
+            </p>
         </div>
         <div class="large-6 columns">
-
+            <h3>For your information:</h3>
+            <p>
+                This API has a billion digits of π in store!
+                That means you'll be able to go through a million pages of digits,
+                from page 0, upto page 999999!
+                We collected the first billion digits from this <a href="http://www.mit.edu/afs.new/sipb/contrib/pi/">MIT website</a>.
+            </p>
+            <p>
+                The API has been designed and deployed on the Restlet
+                <a href="https://restlet.com/products/apispark/">APISpark</a> API platform.
+            </p>
+            <p>
+                <a href="https://restlet.com/products/apispark/">
+                    <img src="https://restlet.com/static/app/img/nav-apispark.jpg" alt="Restlet APISpark API platform">
+                </a>
+            </p>
+            <p>
+                Ready? Let's the hunt begin!
+            </p>
         </div>
     </div>
 </div>
