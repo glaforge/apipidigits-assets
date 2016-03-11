@@ -22,8 +22,26 @@ a {
     text-align: center;
 }
 
+.right {
+    text-align: right;
+}
+
 .white {
     color: white;
+}
+
+.huge-digit, .huge-digit-3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 400%;
+}
+
+.huge-digit-3 {
+    font-size: 1000%;
+}
+
+.digits-batch {
+    border-top: 1px dotted white;
 }
 
 .pi-band {
