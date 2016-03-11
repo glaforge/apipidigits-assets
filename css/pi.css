@@ -45,6 +45,11 @@ a {
     padding: 10px;
 }
 
+.digit-page-marker {
+    margin-bottom: 0;
+    border-top: 2px dotted white;
+}
+
 .pi-band {
     background-color: white;
     color: black;
